@@ -4,7 +4,7 @@ class GeminiApi {
   GeminiApi(_);
 
   static const apiKey =
-      "AIzaSyCLABIw7tbYdWAgPXfymYMKX00Xbuvg1Rg"; //google gemini
+      "APIKEY"; //google gemini
 
   static Future<String?> generativeText(String userPrompt) async {
     final model = GenerativeModel(
